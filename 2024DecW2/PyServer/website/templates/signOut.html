@@ -1,0 +1,11 @@
+{% extends "base.html"%}
+{%block title%}Sign Out Page{%endblock%}
+
+{%block content%}
+<h1>This is the Sign Out page</h1>
+{%if boolean==True%}
+{{user}} has signed out.
+{%else%}
+Error occured
+{%endif%}
+{%endblock%}
